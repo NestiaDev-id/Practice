@@ -1,0 +1,47 @@
+body {
+    background-image: url("../../Image/bg5.jpg");
+    background-position: center;
+    /*background-repeat: no-repeat;*/
+    height: 100%;
+    background-size: cover;
+}
+body {
+
+}
+.bg {
+    background-image: url("../../Image/tree2.png");
+}
+h1 {
+    color: #67b0b0;
+    font-size: 50px;
+    background-color: #223f86;
+    font-variant: small-caps;
+    font-family: "Bodoni MT Black";
+    text-decoration: underline;
+    text-decoration-color: #2e7136;
+}
+.judul1 {
+    color: aquamarine;
+}
+.judul2 {
+    color: aqua;
+}
+.judul3 {
+    color: aqua;
+}
+.p1  {
+    color: red;
+    font-style: italic;
+}
+.p2 {
+    /*font-style: italic;*/
+    line-height: 3;
+    color : blueviolet;
+
+}
+.p3 {
+    color: rebeccapurple;
+}
+.div-p4 {
+    color: cyan;
+}
