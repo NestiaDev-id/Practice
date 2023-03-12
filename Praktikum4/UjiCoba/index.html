@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="countainer" id="countainer">
+        <form action="menu2.html" method="post">
+            <div>
+                <label for="">Nama : </label>
+                <input type=" text1" class="fieldNama" id="lbNama" pattern=""
+                    oninvalid="this.setCustomValidity('harus disisi')" placeholder="Masukkan Nama">
+            </div>
+            <br>
+            <div>
+                <label for="" id="labelJumPilihan">Jumlah Pilihan : </label>
+                <input type="number" id="idJumlahPilihan" min="0" max="3">
+            </div>
+            <br>
+            <div>
+                <!-- tombol simpan -->
+                <button type="submit" class="clsSimpan" id="idSimpan">Simpan</button>
+
+
+            </div>
+            <!-- ini Button -->
+            <p class="txt1" id="txt1">Nama : </p>
+            <p class="txt2" id="txt2">Jumlah Pilihan : </p>
+
+            <div class="" id="pilihanJurusan">
+                <select name="" id="">
+                    <option value="">Pilihan 1</option>
+                    <option value="">Pilihan 2</option>
+                    <option value="">Pilihan 3</option>
+                    <option value="">Pilihan 4</option>
+                    <option value="">Pilihan 5</option>
+                </select>
+                <br>
+            </div>
+        </form>
+        <!-- pengisian nama -->
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
