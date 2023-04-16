@@ -1,0 +1,19 @@
+.panjang {
+    width: 600px;
+    height: 300px;
+    /* linear gradient(<sudut> | <arah>, <warna awal>....<warna akhir> */
+    background-image: linear-gradient(to right, #0F2027,#203A43, #2C5364);
+}
+.judul {
+    color: white;
+    /* text-align-last: unset; */
+    text-align: center;
+    font-family: 'Noto Sans JP', sans-serif;
+    @font-face {
+        font-family: diopsajdoai;
+        /* src: url('nama file font), format('truetype'); */
+    }
+
+    
+}
+

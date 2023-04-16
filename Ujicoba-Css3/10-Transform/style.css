@@ -1,0 +1,24 @@
+.kotak {
+    background-color: cyan;
+    width: 200px;
+    height: 200px;
+    margin: 50px auto;
+    transition: 0.95s;
+}
+.kotak:hover {
+    /* scale dapat memperbesar n kali lipat dari ukuran awal */
+    /* transform: scale(2) scaleX(0.5); */
+
+    /* rotate dapat memutar */
+    /* transform: rotate(90deg) rotateX(180deg) rotateY(180deg); */
+
+    /* skew dapat memiringkan */
+    /* transform: skew(45deg); */
+
+    /* translate dapat menggeser, sepertihalnya dengan slide */
+    transform: translate(45px);
+}
+p {
+    font-size: 24px;
+    text-align: center;
+}

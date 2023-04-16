@@ -1,0 +1,31 @@
+.kotak {
+    background-color: salmon;
+    width: 200px;
+    height: 200px;
+    transition: 1s ;
+    margin: 10px 0;
+}
+.container {
+    width: 700px;
+    border: 5px solid black;
+}
+.container:hover .kotak {
+    transform: rotate(180deg);
+    margin-left: 500px;
+    background-color: blue;
+}
+.kotak1 {
+    transition: all 1s ease;
+}
+.kotak2 {
+    transition: all 1s ease-in;
+}
+.kotak3 {
+    transition: all 1s ease-out;
+}
+.kotak4 {
+    transition: all 1s ease-in-out;
+}
+.kotak5 {
+    transition: all 1s linear;
+}

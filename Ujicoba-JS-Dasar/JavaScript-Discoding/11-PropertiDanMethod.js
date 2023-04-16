@@ -4,11 +4,14 @@ class User {
      this.lastName = lastName;
    }
    
-    get fullName() {
+    get getfullName() {
       return `${this.firstName} ${this.lastName}`;
     }
-   
-    set fullName(fullName) {
+    set setfirstname(first) {
+      const firstName = first.split(' ');
+      this.firstName = firstName;
+    }
+    set setfullName(fullName) {
       const [firstName, lastName] = fullName.split(' ');
       this.firstName = firstName;
       this.lastName = lastName;
@@ -17,11 +20,12 @@ class User {
    
   const user = new User('John', 'Doe');
   console.log(user);
-  console.log(user.fullName);
+  user.setfirstname='marta';
+  console.log(user.getfullName);
    
-  user.fullName = 'Fulan Fulanah';
+  user.setfullName = 'Fulan Fulanah';
   console.log(user);
-  console.log(user.fullName);
+  console.log(user.getfullName);
    
   /* Output:
   User { firstName: 'John', lastName: 'Doe' }

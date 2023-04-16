@@ -1,0 +1,15 @@
+.lingkaran {
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    line-height: 200px;
+    text-align: center;
+    font-style: italic;
+    overflow: hidden;
+}
+div, img {
+    width: 200px;
+    height: 200px;
+        
+}

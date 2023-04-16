@@ -3,26 +3,30 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Form Register</title>
+    <title>Tailwind Form</title>
+    <!-- Include the Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
 </head>
 
-<body>
-
-    <div class="box">
-        <form action="">
-            <h1>Menu-1</h1>
-            <div class="inputBox">
-                <input type="text" required="required">
-                <span>Masukkan Nama</span>
-            </div>
-            <div class="inputBox">
-
-            </div>
-        </form>
-
+<body class="bg-gray-100 py-4">
+    <div class="max-w-xl mx-auto p-4 bg-white shadow rounded">
+        <label for="name" class="block text-gray-700 font-bold mb-2">Nama:</label>
+        <input type="text" id="name"
+            class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline mb-4">
+        <br>
+        <label for="num-choices" class="block text-gray-700 font-bold mb-2">Jumlah Pilihan:</label>
+        <input type="number" id="num-choices"
+            class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline mb-4">
+        <br>
+        <button onclick="showInputFields()"
+            class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline mb-4">Kirim</button>
+        <div id="input-fields"></div>
+        <div id="output" class="font-semibold"></div>
     </div>
+
+    <script src="script.js"></script>
 </body>
 
 </html>

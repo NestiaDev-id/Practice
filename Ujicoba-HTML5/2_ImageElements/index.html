@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 1.125rem;
+            line-height: 1.6;
+            color: #333;
+            padding: 2em;
+        }
+
+        .hero {
+            display: grid;
+            grid-gap: 2em;
+            align-items: center;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        @media (min-width: 960px) {
+            .hero {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="hero">
+        <div class="hero_teks">
+            <h1>Image Element</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis veniam quos soluta quidem, sit
+                incidunt ea quo ratione id sint, maiores, ab laborum eveniet odio nesciunt? At error accusantium
+                corrupti praesentium ipsum hic alias nemo quibusdam repudiandae doloremque, nisi recusandae autem
+                molestias sit repellendus deserunt! Eum rem, quaerat temporibus est ullam maiores dolores aut quam quasi
+                molestiae suscipit fugit quibusdam animi explicabo labore esse vel necessitatibus veniam. Tempore at
+                quod nostrum accusantium nihil eos iure.</p>
+        </div>
+        <picture>
+            <source media="(min-width: 960px)" srcset="../../Image/original_bruno.jpg" sizes="50vw">
+            <source media="(min-width: 600px)" srcset="../../Image/medium_bruno.png">
+            <img src="../../Image/small_bruno.png" alt="bruno">
+        </picture>
+    </div>
+</body>
+
+</html>

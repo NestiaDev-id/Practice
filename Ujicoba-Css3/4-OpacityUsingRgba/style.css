@@ -1,0 +1,22 @@
+.satu {
+  background-color: red;
+  width: 200px;
+  height: 200px;
+  /* border-radius: 100px; */
+  line-height: 200px;
+  text-align: center;
+  font-style: italic;
+  /* overflow: hidden; */
+  position: relative;
+  /* red green blue alpha */
+  background-color: rgba(255, 102, 0, 0.4);
+}
+.dua {
+  background-color: aqua;
+  height: 50px;
+  width: 50px;
+  overflow: 0.2;
+  position: absolute;
+  right: -30px;
+  opacity: 0.8;
+}
